@@ -1,0 +1,56 @@
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
+.container {
+  font-family: sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  background: violet; }
+
+.header {
+  color: #919499;
+  background: green; }
+
+nav {
+  background: red;
+  padding: 10px; }
+  nav ul {
+    display: inline-block;
+    border-radius: 0.35em;
+    box-shadow: inset 0px 0px 1px 1px rgba(255, 255, 255, 0.25);
+    padding: 0 1.5em 0 1.5em; }
+    nav ul li {
+      display: inline;
+      padding: 10px;
+      margin: 10px 20px; }
+
+section {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  background: pink; }
+  section::after {
+    clear: both;
+    content: "";
+    display: block; }
+  section header {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 23.23176%;
+    background: orange; }
+    section header:last-child {
+      margin-right: 0; }
+  section section {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 74.41059%;
+    background: yellow; }
+    section section:last-child {
+      margin-right: 0; }
+
+/*# sourceMappingURL=style.css.map */

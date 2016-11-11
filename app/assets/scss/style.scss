@@ -1,0 +1,44 @@
+@import "bourbon/bourbon";
+@import "neat/neat";
+
+.container {
+  font-family: sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  background: violet;
+}
+
+.header {
+  color: #919499;
+  background: green;
+}
+
+nav {
+  background: red;
+  padding: 10px;
+  ul {
+    display: inline-block;
+		border-radius: 0.35em;
+		box-shadow: inset 0px 0px 1px 1px rgba(255, 255, 255, 0.25);
+		padding: 0 1.5em 0 1.5em;
+    li {
+    display: inline;
+    padding: 10px;
+    margin: 10px 20px;
+    }
+  }
+}
+
+section {
+  @include outer-container;
+  background: pink;
+  header {
+    @include span-columns(3);
+    background: orange;
+  }
+  section {
+    @include span-columns(9);
+    background: yellow;
+  }
+
+}
