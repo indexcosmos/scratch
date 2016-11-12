@@ -11,8 +11,7 @@ html {
   background: violet; }
 
 .header {
-  color: #919499;
-  background: green; }
+  background: url(../img/blue-bg.jpg); }
 
 nav {
   background: red;
