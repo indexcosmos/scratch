@@ -4,29 +4,40 @@ html {
 *, *::after, *::before {
   box-sizing: inherit; }
 
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 1.5 / 1), only screen and (min-resolution: 144dpi), only screen and (min-resolution: 1.5dppx) {
+  width: 20em; }
 .container {
   font-family: sans-serif;
   text-transform: uppercase;
   text-align: center;
   background: violet; }
 
+/*
+*******************
+* =header
+*******************
+*/
 .header {
   background: url(../img/blue-bg.jpg);
-  width: 1920px;
-  height: 574px; }
+  color: #8e8e8e; }
 
 nav {
-  background: red;
+  margin: 10px;
   padding: 10px; }
   nav ul {
     border-radius: 0.35em;
-    box-shadow: inset 0px 0px 1px 1px rgba(255, 255, 255, 0.25);
-    padding: 0 1.5em 0 1.5em; }
+    box-shadow: inset 0px 0px 1px 1px rgba(255, 255, 255, 0.25); }
     nav ul li {
       display: inline;
-      padding: 10px;
-      margin: 10px 20px; }
+      margin: 20px; }
+      nav ul li a {
+        padding: 10px; }
 
+/*
+*******************
+* =intro
+*******************
+*/
 section {
   max-width: 1200px;
   margin-left: auto;
