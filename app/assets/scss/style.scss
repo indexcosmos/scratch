@@ -45,7 +45,7 @@ nav {
 *******************
 */
 
-section {
+section .intro {
   @include outer-container;
   background: pink;
   header {
