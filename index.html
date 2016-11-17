@@ -43,34 +43,27 @@
 
     <!-- intro -->
     <section class="intro">
-      <div class="title">
-        Intro Heading
-      </div>
-
+      <div class="title">Intro Heading</div>
       <p class="style1">Little introdction sentence.</p>
       <p class="style2">Bordered intro bold not all caps</p>
       <p calss="style3">
         Etiam venenatis tincidunt dictum. Sed sed tortor tellus. Sed tempus sollicitudin quam, pretium consequat est convallis at. Quisque porttitor lorem orci, id hendrerit diam ullamcorper eget. Suspendisse potenti.
       </p>
-
       <ul class="action">
         <li><a href="#">Proceed Button</a></li>
       </ul>
-
     </section> <!-- end intro section -->
 
     <!-- main -->
-    <setion class="feature">
-      <div class="title">
-        Main Heading
-      </div>
+    <setion class="main">
+      <div class="title">Main Heading</div>
       <div class="main-img-container">
         <a href="#"><img src="app/assets/img/pic01.jpg" alt="Feature Img"></a>
       </div>
     </section> <!-- end main container -->
 
       <!-- feature -->
-    <section class="feature-container">
+    <section class="feature">
     <header class="style1">
       <h4>Something that is a heading</h4>
       <p>
@@ -119,16 +112,16 @@
     </section>
 
     <!-- highlights -->
-    <section class="container-style1">
+    <section class="highlight">
       <div class="title">Highlight Header</div>
 
       <div class="highlight-container">
         <div class="row">
-          <section class="highlight">
+          <section class="highlight-row">
             <a href="#" class="img-feature">
               <img src="app/assets/img/pic02.jpg" alt="natural sand">
             </a>
-            <h3><a href="#">Click Me</a></h3>
+            <h3><a href="#">Click Me Header</a></h3>
             <p>Lorem ipsum dolor sit amet, consequat commodo, ac nunc ridiculus, amet nec sed sed arcu id dignissim. Massa tempus, morbi tellus gravida, a proin mauris arcu, sagittis phasellus dolor vitae.
             </p>
             <ul class="click">
@@ -138,7 +131,7 @@
             </ul>
           </section>
 
-          <section class="highlight">
+          <section class="highlight-row">
             <a href="#" class="img-feature">
               <img src="app/assets/img/pic03.jpg" alt="natural blue">
             </a>
@@ -152,7 +145,7 @@
             </ul>
           </section>
 
-          <section class="highligh">
+          <section class="highlight-row">
             <a href="#" class="img-feature">
               <img src="app/assets/img/pic04.jpg" alt="natural heather">
             </a>
@@ -167,16 +160,54 @@
           </section>
 
         </div> <!-- end row div -->
-      </div> <!-- end highlight container -->
+      </div> <!-- end highlight container div -->
     </section>
-  </body>
+  </body> <!-- rock your body body -->
+
   <!-- footer -->
   <footer>
-    <div class="footer-container">
+    <section class="footer-container">
       <div class="title">Footer Header</div>
+      <header class="sytle1">
+        <h4>Ipsum sapien elementum portitor?</h4>
+        <p>
+          Sed turpis tortor, tincidunt sed ornare in metus porttitor mollis nunc in aliquet.
+          Nam pharetra laoreet imperdiet volutpat etiam consequat feugiat.
+        </p>
+      </header>
+      <hr>
+      <div class="row">
+        <!-- contact form -->
+        <div class="contact">
+          <section>
+            <form method="post" action="#">
+              <div class="row name-email">
+                <div class="name">
+                  <input type="text" name="name" placeholder="name">
+                </div>
+                <div class="email">
+                  <input type="text" name="email" placeholder="email">
+                </div>
+                </<div> <!-- end contact row -->
+                <div class="row message">
+                <div class="textarea">
+                  <textarea name="message" id="contact-message" placeholder="message" cols="30" rows="10"></textarea>
+                </div>
+              </div> <!-- end message row -->
+              <div class="row buttons">
+                <ul>
+                  <il><input type="sumbit" class="submit" value="send"></il>
+                  <il><input type="reset" class="reset" value="reset"></il>
+                </ul>
+              </div>
 
-    </div>
+            </form>
+          </section>
+        </div>
+      </div>
 
+
+    </section>
   </footer>
 
 </html>
