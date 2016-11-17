@@ -8,60 +8,43 @@ html {
   width: 20em; }
 .container {
   font-family: sans-serif;
-  text-transform: uppercase;
   text-align: center;
-  background: violet; }
+  background: #fff; }
 
 /*
 *******************
 * =header
 *******************
 */
-.header {
-  background: url(../img/blue-bg.jpg);
-  color: #8e8e8e; }
-
-nav {
-  margin: 10px;
-  padding: 10px; }
-  nav ul {
-    border-radius: 0.35em;
-    box-shadow: inset 0px 0px 1px 1px rgba(255, 255, 255, 0.25); }
-    nav ul li {
-      display: inline;
-      margin: 20px; }
-      nav ul li a {
-        padding: 10px; }
-
 /*
 *******************
 * =intro
 *******************
 */
-section .intro {
+section {
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
-  background: pink; }
-  section .intro::after {
+  background: #cccccc; }
+  section::after {
     clear: both;
     content: "";
     display: block; }
-  section .intro header {
+  section header {
     float: left;
     display: block;
     margin-right: 2.35765%;
     width: 23.23176%;
     background: orange; }
-    section .intro header:last-child {
+    section header:last-child {
       margin-right: 0; }
-  section .intro section {
+  section section {
     float: left;
     display: block;
     margin-right: 2.35765%;
     width: 74.41059%;
     background: yellow; }
-    section .intro section:last-child {
+    section section:last-child {
       margin-right: 0; }
 
 /*# sourceMappingURL=style.css.map */

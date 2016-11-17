@@ -7,9 +7,8 @@
 
 .container {
   font-family: sans-serif;
-  text-transform: uppercase;
   text-align: center;
-  background: violet;
+  background: #fff;
 }
 
 /*
@@ -18,26 +17,6 @@
 *******************
 */
 
-.header {
-  background: url(../img/blue-bg.jpg);
-  color: #8e8e8e;
-}
-
-nav {
-  margin: 10px;
-  padding: 10px;
-  ul {
-    border-radius: 0.35em;
-		box-shadow: inset 0px 0px 1px 1px rgba(255, 255, 255, 0.25);
-		li {
-    display: inline;
-    margin: 20px;
-    a {
-      padding: 10px;
-    }
-    }
-  }
-}
 
 /*
 *******************
@@ -47,7 +26,7 @@ nav {
 
 section {
   @include outer-container;
-  background: pink;
+  background: #cccccc;
   header {
     @include span-columns(3);
     background: orange;
