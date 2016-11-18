@@ -5,11 +5,32 @@
   width: 20em;
 }
 
-.container {
+/*
+*******************
+* =global
+*******************
+*/
+
+.theme-starter {
   font-family: sans-serif;
   text-align: center;
   background: #fff;
 }
+
+ul {
+  list-style-type: none;
+}
+
+ul li {
+  display: inline;
+}
+
+/*
+*******************
+* =nav
+*******************
+*/
+
 
 /*
 *******************
@@ -23,17 +44,3 @@
 * =intro
 *******************
 */
-
-section {
-  @include outer-container;
-  background: #cccccc;
-  header {
-    @include span-columns(3);
-    background: orange;
-  }
-  section {
-    @include span-columns(9);
-    background: yellow;
-  }
-
-}

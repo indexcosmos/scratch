@@ -6,11 +6,27 @@ html {
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 1.5 / 1), only screen and (min-resolution: 144dpi), only screen and (min-resolution: 1.5dppx) {
   width: 20em; }
-.container {
+/*
+*******************
+* =global
+*******************
+*/
+.theme-starter {
   font-family: sans-serif;
   text-align: center;
   background: #fff; }
 
+ul {
+  list-style-type: none; }
+
+ul li {
+  display: inline; }
+
+/*
+*******************
+* =nav
+*******************
+*/
 /*
 *******************
 * =header
@@ -21,30 +37,5 @@ html {
 * =intro
 *******************
 */
-section {
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  background: #cccccc; }
-  section::after {
-    clear: both;
-    content: "";
-    display: block; }
-  section header {
-    float: left;
-    display: block;
-    margin-right: 2.35765%;
-    width: 23.23176%;
-    background: orange; }
-    section header:last-child {
-      margin-right: 0; }
-  section section {
-    float: left;
-    display: block;
-    margin-right: 2.35765%;
-    width: 74.41059%;
-    background: yellow; }
-    section section:last-child {
-      margin-right: 0; }
 
 /*# sourceMappingURL=style.css.map */
