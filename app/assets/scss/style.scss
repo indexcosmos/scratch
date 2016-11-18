@@ -1,9 +1,12 @@
 @import "bourbon/bourbon";
 @import "neat/neat";
 
+// mixins
 @include hidpi(1.5) {
   width: 20em;
 }
+// img asset
+
 
 /*
 *******************
@@ -24,6 +27,13 @@ ul {
 ul li {
   display: inline;
 }
+
+/*
+*******************
+* =header
+*******************
+*/
+
 
 /*
 *******************
