@@ -1,5 +1,8 @@
 html {
- }
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 1.5 / 1), only screen and (min-resolution: 144dpi), only screen and (min-resolution: 1.5dppx) {
   width: 20em; }
@@ -8,62 +11,55 @@ html {
 * =global
 *******************
 */
-.theme-starter {
-  font-family: sans-serif;
-  text-align: center;
-  background: #fff; }
-
 ul {
   list-style-type: none; }
 
 ul li {
-  display: inline;
-}
+  display: inline; }
 
 a:link {
   color: green;
-  text-decoration: none;
-}
+  text-decoration: none; }
 
 a:hover {
-  background: #000;
-}
+  background: #000; }
+
+.container {
+  height: 100%;
+  width: 100%;
+  max-width: 500px;
+  overflow: hidden;
+  font-family: sans-serif;
+  text-align: center;
+  background: #ccc; }
 
 /*
 *******************
-* =header
+* =branding
 *******************
 */
-.header {
-  margin: 0px;
-  padding: 0px;
-  background-image: url(../img/banner.jpg);
-}
+.branding h1, .branding p {
+  color: #fff;
+  text-transform: uppercase;
+  position: absolute; }
 
 .branding h1 {
-  color: #fff;
-}
+  top: 100px; }
+
+.branding p {
+  top: 20px; }
 
 /*
 *******************
 * =nav
 *******************
 */
-
-nav ul {
-  border: 20px;
-  color: yellow;
-}
+nav {
+  border: 3px solid #pink; }
 
 /*
 *******************
 * =intro
-*******************
-*/
-
-/*
-*******************
-* =hightlight
 *******************
 */
 

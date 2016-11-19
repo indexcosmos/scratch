@@ -1,11 +1,13 @@
 @import "bourbon/bourbon";
 @import "neat/neat";
 
-// mixins
+
 @include hidpi(1.5) {
   width: 20em;
 }
-// img asset
+
+// mixin
+$max-width: 500px;
 
 
 /*
@@ -13,40 +15,64 @@
 * =global
 *******************
 */
-
-.theme-starter {
-  font-family: sans-serif;
-  text-align: center;
-  background: #fff;
-}
-
 ul {
-  list-style-type: none;
-}
+  list-style-type: none; }
 
 ul li {
   display: inline;
 }
 
+a:link {
+  color: green;
+  text-decoration: none;
+}
+
+a:hover {
+  background: #000;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  max-width: $max-width;
+  overflow: hidden;
+  font-family: sans-serif;
+  text-align: center;
+  background: #ccc;
+}
+
 /*
 *******************
-* =header
+* =branding
 *******************
 */
 
+.branding {
+
+}
+
+.branding h1, .branding p {
+  color: #fff;
+  text-transform: uppercase;
+  position: absolute;
+}
+
+.branding h1 {
+  top: 100px;
+}
+
+.branding p {
+  top: 20px;
+}
 
 /*
 *******************
 * =nav
 *******************
 */
-
-
-/*
-*******************
-* =header
-*******************
-*/
+nav {
+  border: 3px solid #pink;
+}
 
 
 /*
