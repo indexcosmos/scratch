@@ -1,8 +1,5 @@
 html {
-  box-sizing: border-box; }
-
-*, *::after, *::before {
-  box-sizing: inherit; }
+ }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 1.5 / 1), only screen and (min-resolution: 144dpi), only screen and (min-resolution: 1.5dppx) {
   width: 20em; }
@@ -20,7 +17,17 @@ ul {
   list-style-type: none; }
 
 ul li {
-  display: inline; }
+  display: inline;
+}
+
+a:link {
+  color: green;
+  text-decoration: none;
+}
+
+a:hover {
+  background: #000;
+}
 
 /*
 *******************
@@ -33,8 +40,8 @@ ul li {
   background-image: url(../img/banner.jpg);
 }
 
-h1 {
-  text-transform: capitalize;
+.branding h1 {
+  color: #fff;
 }
 
 /*
@@ -42,6 +49,11 @@ h1 {
 * =nav
 *******************
 */
+
+nav ul {
+  border: 20px;
+  color: yellow;
+}
 
 /*
 *******************
