@@ -32,7 +32,7 @@ img {
   height: 100%;
   width: 100%;
   max-width: 800px;
-  overflow-x: hidden;
+  overflow: hidden;
   font-family: sans-serif;
   text-align: center;
   background: #ccc; }
@@ -59,7 +59,8 @@ img {
 *******************
 */
 nav {
-  border: 3px solid #pink; }
+  position: static;
+  border: 3px; }
 
 /*
 *******************
