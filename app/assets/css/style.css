@@ -32,7 +32,7 @@ img {
   height: 100%;
   width: 100%;
   max-width: 800px;
-  overflow: hidden;
+  overflow-x: hidden;
   font-family: sans-serif;
   text-align: center;
   background: #ccc; }
