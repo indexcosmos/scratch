@@ -25,14 +25,14 @@ a:hover {
   background: #000; }
 
 img {
-  max-width: 100%;
-  height: auto; }
+  max-width: 100%; }
 
 .container {
   height: 100%;
   width: 100%;
-  max-width: 800px;
+  max-width: 960px;
   overflow-x: hidden;
+  margin: 0 auto;
   font-family: sans-serif;
   text-align: center;
   background: #ccc; }
@@ -58,14 +58,18 @@ img {
 * =nav
 *******************
 */
-nav {
-  position: static;
-  border: 3px; }
-
 /*
 *******************
 * =intro
 *******************
 */
+/*
+*******************
+* =media queries
+*******************
+*/
+@media screen and (min-width) {
+  p {
+    background: blue; } }
 
 /*# sourceMappingURL=style.css.map */
