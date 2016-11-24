@@ -6,8 +6,9 @@
   width: 20em;
 }
 
-// mixin
+// variables
 $max-width: 960px;
+$bg-color: #fff;
 
 
 /*
@@ -17,6 +18,10 @@ $max-width: 960px;
 */
 * {
 
+}
+
+body {
+  background-color: $bg-color;
 }
 
 ul {
@@ -46,7 +51,7 @@ img {
 
   font-family: sans-serif;
   text-align: center;
-  background: #ccc;
+
 }
 
 /*
