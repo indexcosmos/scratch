@@ -15,6 +15,10 @@ $max-width: 960px;
 * =global
 *******************
 */
+* {
+
+}
+
 ul {
   list-style-type: none; }
 
@@ -39,7 +43,7 @@ img {
   width: 100%;
   max-width: $max-width;
   overflow-x: hidden;
-  margin: 0 auto;
+
   font-family: sans-serif;
   text-align: center;
   background: #ccc;
@@ -89,10 +93,13 @@ nav {
 
 /*
 *******************
-* =media queries
+* =highlight container
 *******************
 */
 
-@media screen and (min-width) {
-  p {background: blue;}
+
+section {
+  @include outer-container;
+  .row { @include span-columns(4); }
+
 }

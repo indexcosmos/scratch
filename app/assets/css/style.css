@@ -32,7 +32,6 @@ img {
   width: 100%;
   max-width: 960px;
   overflow-x: hidden;
-  margin: 0 auto;
   font-family: sans-serif;
   text-align: center;
   background: #ccc; }
@@ -65,11 +64,23 @@ img {
 */
 /*
 *******************
-* =media queries
+* =highlight container
 *******************
 */
-@media screen and (min-width) {
-  p {
-    background: blue; } }
+section {
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto; }
+  section::after {
+    clear: both;
+    content: "";
+    display: block; }
+  section .row {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 31.76157%; }
+    section .row:last-child {
+      margin-right: 0; }
 
 /*# sourceMappingURL=style.css.map */
