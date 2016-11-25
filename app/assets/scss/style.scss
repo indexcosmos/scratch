@@ -1,11 +1,6 @@
 @import "bourbon/bourbon";
 @import "neat/neat";
 
-
-@include hidpi(1.5) {
-  width: 20em;
-}
-
 // variables
 $max-width: 880px;
 $bg-color: #fff;
@@ -49,6 +44,7 @@ a:hover {
 img {
   max-width: 100%;
 }
+
 .container {
   height: 100%;
   width: 100%;
@@ -57,7 +53,6 @@ img {
 
   font-family: sans-serif;
   text-align: center;
-
 }
 
 /*
@@ -73,15 +68,15 @@ img {
 .branding h1, .branding p {
   color: #fff;
   text-transform: uppercase;
-  position: absolute;
+  position: relative;
 }
 
 .branding h1 {
-  top: 100px;
+
 }
 
 .branding p {
-  top: 20px;
+  
 }
 
 /*
