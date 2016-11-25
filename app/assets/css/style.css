@@ -11,6 +11,11 @@ html {
 * =global
 *******************
 */
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
 body {
   background-color: #fff; }
 
@@ -20,9 +25,11 @@ ul {
 ul li {
   display: inline; }
 
-a:link {
-  color: green;
-  text-decoration: none; }
+a {
+  color: #fff; }
+  a:link {
+    background-color: green;
+    text-decoration: none; }
 
 a:hover {
   background: #000; }
@@ -33,7 +40,7 @@ img {
 .container {
   height: 100%;
   width: 100%;
-  max-width: 960px;
+  max-width: 880px;
   overflow-x: hidden;
   font-family: sans-serif;
   text-align: center; }
@@ -70,7 +77,7 @@ img {
 *******************
 */
 section {
-  max-width: 960px;
+  max-width: 880px;
   margin-left: auto;
   margin-right: auto; }
   section::after {
