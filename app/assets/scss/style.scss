@@ -1,8 +1,9 @@
 @import "bourbon/bourbon";
+@import "grid-settings";
 @import "neat/neat";
 
 // variables
-$max-width: 880px;
+$max-width: 70em;
 $bg-color: #fff;
 
 
@@ -60,7 +61,6 @@ img {
 * =branding
 *******************
 */
-
 .branding {
 
 }
@@ -71,13 +71,6 @@ img {
   position: relative;
 }
 
-.branding h1 {
-
-}
-
-.branding p {
-  
-}
 
 /*
 *******************
