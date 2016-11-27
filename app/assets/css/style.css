@@ -16,32 +16,30 @@ html {
 
 body {
   background-color: #fff; }
+  body .container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto; }
+    body .container::after {
+      clear: both;
+      content: "";
+      display: block; }
 
 ul {
   list-style-type: none; }
-
-ul li {
-  display: inline; }
+  ul li {
+    display: inline; }
 
 a {
   color: #fff; }
   a:link {
     background-color: green;
     text-decoration: none; }
-
-a:hover {
-  background: #000; }
+  a:hover {
+    background: #000; }
 
 img {
   max-width: 100%; }
-
-.container {
-  height: 100%;
-  width: 100%;
-  max-width: 70em;
-  overflow-x: hidden;
-  font-family: sans-serif;
-  text-align: center; }
 
 /*
 *******************
@@ -68,20 +66,5 @@ img {
 * =highlight container
 *******************
 */
-section {
-  max-width: 70em;
-  margin-left: auto;
-  margin-right: auto; }
-  section::after {
-    clear: both;
-    content: "";
-    display: block; }
-  section .row {
-    float: left;
-    display: block;
-    margin-right: 2.5641%;
-    width: 38.46154%; }
-    section .row:last-child {
-      margin-right: 0; }
 
 /*# sourceMappingURL=style.css.map */

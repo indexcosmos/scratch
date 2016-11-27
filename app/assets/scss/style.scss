@@ -3,7 +3,6 @@
 @import "neat/neat";
 
 // variables
-$max-width: 70em;
 $bg-color: #fff;
 
 
@@ -20,13 +19,16 @@ $bg-color: #fff;
 
 body {
   background-color: $bg-color;
+  .container {
+    @include outer-container;
+  }
 }
 
 ul {
-  list-style-type: none; }
-
-ul li {
-  display: inline;
+  list-style-type: none;
+  li {
+    display: inline;
+  }
 }
 
 a {
@@ -36,24 +38,13 @@ a {
   background-color: green;
   text-decoration: none;
   }
-}
-
-a:hover {
-  background: #000;
+  &:hover {
+    background: #000;
+  }
 }
 
 img {
   max-width: 100%;
-}
-
-.container {
-  height: 100%;
-  width: 100%;
-  max-width: $max-width;
-  overflow-x: hidden;
-
-  font-family: sans-serif;
-  text-align: center;
 }
 
 /*
@@ -95,10 +86,3 @@ nav {
 * =highlight container
 *******************
 */
-
-
-section {
-  @include outer-container;
-  .row { @include span-columns(4); }
-
-}
