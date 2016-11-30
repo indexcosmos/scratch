@@ -13,7 +13,9 @@ html {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  text-align: center; }
+  text-align: center;
+  margin: 0px;
+  padding: 0px; }
 
 body {
   background-color: #fff; }
@@ -47,6 +49,9 @@ img {
 * =branding
 *******************
 */
+.branding {
+  background-color: blue; }
+
 .branding h1, .branding p {
   color: #fff;
   text-transform: uppercase;

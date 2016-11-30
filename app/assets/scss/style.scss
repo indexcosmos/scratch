@@ -16,6 +16,8 @@ $bg-color: #fff;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   text-align: center;
+  margin: 0px;
+  padding: 0px;
 }
 
 body {
@@ -53,8 +55,9 @@ img {
 * =branding
 *******************
 */
-.branding {
 
+.branding {
+  background-color: blue;
 }
 
 .branding h1, .branding p {
