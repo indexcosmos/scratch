@@ -42,21 +42,16 @@ a {
     background: #000; }
 
 img {
-  max-width: 100%;
-  max-resolution: 100%; }
+  max-width: 100%; }
 
 /*
 *******************
 * =branding
 *******************
 */
-.branding {
-  background: url(../img/banner.jpg); }
-
 .branding h1, .branding p {
   color: #fff;
-  text-transform: uppercase;
-  position: relative; }
+  text-transform: uppercase; }
 
 /*
 *******************
@@ -85,8 +80,6 @@ nav {
 *******************
 */
 .main-img-container {
-  background-image: url(../img/pic01.jpg);
-  background-image: url(../img/pic01.jpg);
-  background: no-repeat; }
+  background-image: no-repeat; }
 
 /*# sourceMappingURL=style.css.map */
