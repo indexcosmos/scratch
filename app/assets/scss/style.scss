@@ -48,6 +48,7 @@ a {
 
 img {
   max-width: 100%;
+  max-resolution: 100%;
 }
 
 /*
@@ -57,7 +58,7 @@ img {
 */
 
 .branding {
-  background-color: blue;
+  background: url(../img/banner.jpg);
 }
 
 .branding h1, .branding p {
@@ -73,7 +74,7 @@ img {
 *******************
 */
 nav {
-
+  border: 5px solid;
 }
 
 
@@ -93,3 +94,15 @@ nav {
 * =highlight container
 *******************
 */
+
+/*
+*******************
+* =main
+*******************
+*/
+
+.main-img-container {
+  @include background-image(url(../img/pic01.jpg));
+  background: no-repeat;
+
+}

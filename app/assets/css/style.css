@@ -42,7 +42,8 @@ a {
     background: #000; }
 
 img {
-  max-width: 100%; }
+  max-width: 100%;
+  max-resolution: 100%; }
 
 /*
 *******************
@@ -50,7 +51,7 @@ img {
 *******************
 */
 .branding {
-  background-color: blue; }
+  background: url(../img/banner.jpg); }
 
 .branding h1, .branding p {
   color: #fff;
@@ -62,6 +63,9 @@ img {
 * =nav
 *******************
 */
+nav {
+  border: 5px solid; }
+
 /*
 *******************
 * =intro
@@ -75,5 +79,14 @@ img {
 * =highlight container
 *******************
 */
+/*
+*******************
+* =main
+*******************
+*/
+.main-img-container {
+  background-image: url(../img/pic01.jpg);
+  background-image: url(../img/pic01.jpg);
+  background: no-repeat; }
 
 /*# sourceMappingURL=style.css.map */
