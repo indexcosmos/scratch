@@ -45,14 +45,14 @@ img {
   max-width: 100%;
   max-height: 100%; }
 
-.title {
-  text-transform: uppercase; }
-
 /*
 *******************
 * =branding
 *******************
 */
+.branding {
+  background-image: url(); }
+
 .branding h1, .branding p {
   position: absolute;
   color: #fff;
@@ -65,6 +65,12 @@ img {
 
 .branding p {
   top: 150px; }
+
+.title1 {
+  text-transform: uppercase;
+  position: relative;
+  top: -10px;
+  background-color: pink; }
 
 /*
 *******************
@@ -85,6 +91,9 @@ nav {
 */
 .intro {
   background-color: #6ac48c; }
+
+.border {
+  border: black 1px solid; }
 
 /*
 *******************
