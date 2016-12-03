@@ -91,6 +91,11 @@ nav ul li {
 nav ul ul {
   display: block; }
 
+nav ul li ul .dropdown {
+  min-width: 100%;
+  background: green;
+  display: none; }
+
 /*
 *******************
 * =intro
