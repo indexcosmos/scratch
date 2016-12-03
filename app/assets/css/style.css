@@ -36,10 +36,9 @@ ul {
 a {
   color: #fff; }
   a:link {
-    background-color: green;
     text-decoration: none; }
   a:hover {
-    background: #000; }
+    background: #2f2f2f; }
 
 img {
   max-width: 100%;
@@ -78,11 +77,19 @@ img {
 *******************
 */
 nav {
-  border: 5px solid;
+  border-style: solid;
+  border-radius: .35em;
   position: absolute;
-  display: block;
-  width: 100%;
-  top: 10px; }
+  top: 10px;
+  height: 3em;
+  width: 40em;
+  color: #696565; }
+
+nav ul li {
+  display: inline-block; }
+
+nav ul ul {
+  display: block; }
 
 /*
 *******************

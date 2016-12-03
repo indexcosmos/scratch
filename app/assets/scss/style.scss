@@ -39,11 +39,10 @@ a {
   color: $bg-color;
 
   &:link{
-  background-color: green;
   text-decoration: none;
   }
   &:hover {
-    background: #000;
+    background: #2f2f2f;
   }
 }
 
@@ -57,7 +56,6 @@ img {
 * =branding
 *******************
 */
-
 .branding {
   background-image: url();
 }
@@ -91,11 +89,21 @@ img {
 *******************
 */
 nav {
-  border: 5px solid;
+  @include border-style(solid);
+  border-radius: .35em;
   position: absolute;
-  display: block;
-  width: 100%;
   top: 10px;
+  height: 3em;
+  width: 40em;
+  color: #696565;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul ul {
+  display: block;
 }
 
 
@@ -126,7 +134,6 @@ nav {
 * =feature
 *******************
 */
-
 .row {
   @include row($display: default, $direction: $default-layout-direction);
 }
