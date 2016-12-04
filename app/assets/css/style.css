@@ -34,7 +34,8 @@ a {
   a:link {
     text-decoration: none; }
   a:hover {
-    background: #2f2f2f; }
+    background: #eee;
+    color: #000; }
 
 img {
   max-width: 100%;
