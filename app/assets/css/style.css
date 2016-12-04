@@ -13,16 +13,15 @@ html {
   margin: 0px;
   padding: 0px; }
 
-body {
+.container {
+  max-width: 70em;
+  margin-left: auto;
+  margin-right: auto;
   background-color: #fff; }
-  body .container {
-    max-width: 70em;
-    margin-left: auto;
-    margin-right: auto; }
-    body .container::after {
-      clear: both;
-      content: "";
-      display: block; }
+  .container::after {
+    clear: both;
+    content: "";
+    display: block; }
 
 ul {
   list-style-type: none; }
@@ -35,7 +34,7 @@ a {
     text-decoration: none; }
   a:hover {
     background: #eee;
-    color: #000; }
+    color: rgba(5, 5, 5, 0.75); }
 
 img {
   max-width: 100%;
@@ -43,19 +42,21 @@ img {
 
 /* =branding */
 .branding {
-  background-image: url(); }
+  margin: 0 auto; }
 
-.branding h1, .branding p {
-  position: absolute;
-  color: #fff;
+.head {
+  position: absolute; }
+
+.head h1, .head p {
+  color: #000;
   text-transform: uppercase;
   z-index: 1;
   width: 100%; }
 
-.branding h1 {
-  top: 80px; }
+.head h1 {
+  top: 20px; }
 
-.branding p {
+.head p {
   top: 150px; }
 
 /* =nav */
@@ -64,6 +65,8 @@ nav {
   border-radius: .35em;
   position: absolute;
   top: 10px;
+  left: 50%;
+  margin-left: -320px;
   height: 3em;
   width: 40em;
   color: #696565; }
@@ -85,8 +88,8 @@ nav ul li ul .dropdown {
 
 .title1 {
   text-transform: uppercase;
-  position: relative;
-  top: -10px;
+  position: absolute;
+  top: 110px;
   background-color: #6ac48c;
   width: 10em; }
 
