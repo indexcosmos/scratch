@@ -4,7 +4,7 @@
 
 // variables
 $bg-color: #fff;
-
+$btn-color: #2f333b;
 
 /* =global */
 * {
@@ -23,21 +23,16 @@ $bg-color: #fff;
 
 ul {
   list-style-type: none;
-  li {
-    display: inline;
-  }
 }
 
 a {
   color: $bg-color;
-
-  &:link{
-  text-decoration: none;
-  }
-  &:hover {
-    background: #eee;
-    color: rgba(5, 5, 5, 0.75);
-  }
+    &:link{
+      text-decoration: none;
+    }
+    &:hover {
+      color: rgba(5, 5, 5, 0.75);
+    }
 }
 
 img {
@@ -74,9 +69,9 @@ nav {
   position: absolute;
   top: 10px;
   left: 50%;
-  margin-left: -320px;
+  margin-left: -240px;
   height: 3em;
-  width: 40em;
+  width: 30em;
   color: #696565;
 }
 
@@ -84,14 +79,18 @@ nav ul li {
   display: inline-block;
 }
 
-nav ul ul {
-  display: block;
-}
-
-nav ul li ul .dropdown {
+.dropdown {
   min-width: 100%;
   background: green;
   display: none;
+}
+
+nav ul li:hover ul.dropdown {
+  display: block;
+}
+
+nav ul li ul.dropdown li {
+  display: block;
 }
 
 /* =intro */
@@ -111,6 +110,10 @@ nav ul li ul .dropdown {
 
 .border {
   border: black 1px solid;
+}
+
+.action {
+  @include button($bg-color);
 }
 
 /* =main */
