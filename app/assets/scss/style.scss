@@ -43,23 +43,19 @@ img {
 /* =branding */
 .branding {
   margin: 0 auto;
-}
-
-
-.branding h1, .branding p {
-  color: #000;
-  position: absolute;
-  text-transform: uppercase;
-  z-index: 0;
-  width: 100%;
-}
-
-.branding h1 {
-  top: 80px;
-}
-
-.branding p {
-  top: 150px;
+  h1, p {
+    color: #000;
+    position: absolute;
+    text-transform: uppercase;
+    z-index: 0;
+    width: 100%;
+  }
+  h1 {
+    top: 80px;
+  }
+  p {
+    top: 150px;
+  }
 }
 
 /* =nav */
@@ -67,30 +63,32 @@ nav {
   @include border-style(solid);
   border-radius: .35em;
   position: absolute;
-  top: 10px;
+  top: 2em;
   left: 50%;
   margin-left: -240px;
   height: 3em;
-  width: 30em;
+  width: 35em;
   color: #696565;
-}
-
-nav ul li {
-  display: inline-block;
-}
-
-.dropdown {
-  min-width: 100%;
-  background: green;
-  display: none;
-}
-
-nav ul li:hover ul.dropdown {
-  display: block;
-}
-
-nav ul li ul.dropdown li {
-  display: block;
+  padding: 1em;
+  ul {
+    li {
+      display: inline-block;
+      margin-right: 1.5em;
+      ul.dropdown {
+        max-width: 100%;
+        background: green;
+        position: absolute;
+        top: 2em;
+        display: none;
+      }
+      &:hover ul.dropdown {
+        display: block;
+      }
+      ul.dropdown li {
+        display: block;
+      }
+    }
+  }
 }
 
 /* =intro */
@@ -113,7 +111,7 @@ nav ul li ul.dropdown li {
 }
 
 .action {
-  @include button($bg-color);
+
 }
 
 /* =main */
