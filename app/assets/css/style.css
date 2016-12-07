@@ -67,7 +67,7 @@ nav {
     display: inline-block;
     margin-right: 1.5em; }
     nav ul li.opener {
-      background-color: pink; }
+      padding-bottom: 3em; }
     nav ul li ul.dropdown {
       max-width: 100%;
       background: #222835;
@@ -82,7 +82,7 @@ nav {
       border-left-style: solid;
       display: block;
       position: absolute;
-      top: 2.7em;
+      top: 2.8em;
       border-radius: .35em;
       padding-top: 1.2em, 1em; }
     nav ul li ul.dropdown li {

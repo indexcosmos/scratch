@@ -75,7 +75,7 @@ nav {
       display: inline-block;
       margin-right: 1.5em;
       &.opener {
-        background-color: pink;
+        padding-bottom: 3em;
       }
       ul.dropdown {
         max-width: 100%;
@@ -90,7 +90,7 @@ nav {
         @include border-style(null solid solid solid);
         display: block;
         position: absolute;
-        top: 2.7em;
+        top: 2.8em;
         border-radius: .35em;
         padding-top: 1.2em, 1em;
       }
