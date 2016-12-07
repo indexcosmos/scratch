@@ -69,11 +69,11 @@ nav {
   height: 3em;
   width: 35em;
   color: #696565;
-  padding: 1em;
   ul {
     li {
       display: inline-block;
       margin-right: 1.5em;
+      position: relative;
       &.opener {
         padding-bottom: 3em;
       }

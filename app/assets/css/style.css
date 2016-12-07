@@ -61,11 +61,11 @@ nav {
   margin-left: -240px;
   height: 3em;
   width: 35em;
-  color: #696565;
-  padding: 1em; }
+  color: #696565; }
   nav ul li {
     display: inline-block;
-    margin-right: 1.5em; }
+    margin-right: 1.5em;
+    position: relative; }
     nav ul li.opener {
       padding-bottom: 3em; }
     nav ul li ul.dropdown {
