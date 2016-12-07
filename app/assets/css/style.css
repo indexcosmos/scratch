@@ -66,14 +66,25 @@ nav {
   nav ul li {
     display: inline-block;
     margin-right: 1.5em; }
+    nav ul li.opener {
+      background-color: pink; }
     nav ul li ul.dropdown {
       max-width: 100%;
+      background: #222835;
       background-color: rgba(44, 50, 63, 0.935);
       position: absolute;
       top: 2em;
-      display: none; }
+      display: none;
+      z-index: 1; }
     nav ul li:hover ul.dropdown {
-      display: block; }
+      border-right-style: solid;
+      border-bottom-style: solid;
+      border-left-style: solid;
+      display: block;
+      position: absolute;
+      top: 2.7em;
+      border-radius: .35em;
+      padding-top: 1.2em, 1em; }
     nav ul li ul.dropdown li {
       display: block; }
 
