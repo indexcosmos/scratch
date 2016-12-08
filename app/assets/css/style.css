@@ -68,12 +68,16 @@ nav {
     position: relative; }
     nav ul li.opener {
       padding-bottom: 3em; }
+    nav ul li a {
+      padding: 1em 5px;
+      display: inline-block;
+      vertical-align: bottom; }
     nav ul li ul.dropdown {
       max-width: 100%;
       background: #222835;
       background-color: rgba(44, 50, 63, 0.935);
       position: absolute;
-      top: 2em;
+      top: 100%;
       display: none;
       z-index: 1; }
     nav ul li:hover ul.dropdown {
