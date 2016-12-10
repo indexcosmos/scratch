@@ -137,9 +137,7 @@ nav {
 }
 
 /* =feature */
-.row {
-  @include row($display: default, $direction: $default-layout-direction);
-}
+
 
 /* =highlight */
 .highlight {
@@ -154,13 +152,13 @@ nav {
 
 /* =media queries */
 @media screen and (max-width: 320px) {
-  body {
-    display: none;
+  .container {
+
   }
 }
 
 @media screen and (max-width: 480px) {
-  body {
-    display: none;
+  .container {
+
   }
 }

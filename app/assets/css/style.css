@@ -115,13 +115,6 @@ nav {
   background-image: no-repeat; }
 
 /* =feature */
-.row {
-  display: block; }
-  .row::after {
-    clear: both;
-    content: "";
-    display: block; }
-
 /* =highlight */
 .highlight {
   background-color: #f3f3f3; }
@@ -132,11 +125,5 @@ nav {
   color: #fff; }
 
 /* =media queries */
-@media screen and (max-width: 320px) {
-  body {
-    display: none; } }
-@media screen and (max-width: 480px) {
-  body {
-    display: none; } }
 
 /*# sourceMappingURL=style.css.map */
