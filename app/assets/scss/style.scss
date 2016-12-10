@@ -16,7 +16,7 @@ $btn-color: #2f333b;
   padding: 0px;
 }
 
-.container {
+body {
     @include outer-container;
     background-color: $bg-color;
 }
@@ -151,3 +151,5 @@ nav {
   background-color: #282b34;
   color: $bg-color;
 }
+
+/* =media queries */

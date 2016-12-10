@@ -13,12 +13,12 @@ html {
   margin: 0px;
   padding: 0px; }
 
-.container {
+body {
   max-width: 70em;
   margin-left: auto;
   margin-right: auto;
   background-color: #fff; }
-  .container::after {
+  body::after {
     clear: both;
     content: "";
     display: block; }
@@ -130,5 +130,7 @@ nav {
 .footer-container {
   background-color: #282b34;
   color: #fff; }
+
+/* =media queries */
 
 /*# sourceMappingURL=style.css.map */
