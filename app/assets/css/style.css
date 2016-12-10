@@ -13,12 +13,12 @@ html {
   margin: 0px;
   padding: 0px; }
 
-body {
+.container {
   max-width: 70em;
   margin-left: auto;
   margin-right: auto;
   background-color: #fff; }
-  body::after {
+  .container::after {
     clear: both;
     content: "";
     display: block; }
@@ -132,5 +132,11 @@ nav {
   color: #fff; }
 
 /* =media queries */
+@media screen and (max-width: 320px) {
+  body {
+    display: none; } }
+@media screen and (max-width: 480px) {
+  body {
+    display: none; } }
 
 /*# sourceMappingURL=style.css.map */
