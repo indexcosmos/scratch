@@ -45,6 +45,7 @@ img {
 /* =branding */
 .branding {
   background-image: url("../img/banner.jpg");
+  position: relative;
   margin: 0 auto;
   width: 100%;
   h1, p {
@@ -115,6 +116,8 @@ nav {
 /* =intro */
 .intro {
   background-color: #6ac48c;
+  padding: 3em;
+  color: #fff;
 }
 
 .title1 {
@@ -131,8 +134,18 @@ nav {
   position: absolute;
 }
 
+.intro-sentence {
+  padding-bottom: 3em;
+}
+
 .border {
+  padding-top: 1em;
   border: black 1px solid;
+  padding-bottom: 1.5em;
+}
+
+.para {
+  padding-top: 20px;
 }
 
 .action {
@@ -184,23 +197,22 @@ nav {
     left: 0px;
     display: none;
   }
-  .nav-panel {
-    display: none;
-  }
 }
 // =intro
-.title1 {
-  color: #fff;
-  font-size: .9em;
-  height: 3em;
-  width: 19em;
-  top: 181px;
-  display: block;
-  .title1-header {
-    top: .9em;
-    font-weight: bolder;
-    letter-spacing: .1em;
-    width: 100%;
+.intro {
+  .title1 {
+    color: #fff;
+    font-size: .9em;
+    height: 2.5em;
+    width: 19em;
+    top: 194px;
+    display: block;
+    .title1-header {
+      top: 1.3em;
+      font-weight: bolder;
+      letter-spacing: .1em;
+      width: 100%;
+    }
   }
 }
 
