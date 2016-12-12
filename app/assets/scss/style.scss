@@ -217,6 +217,11 @@ nav {
   .intro-sentence  {
     font-size: 0.7em;
   }
+  .border {
+    @include border-style(solid);
+    border-radius: .35em;
+    padding: 1.2em;
+  }
 }
 
 @media screen and (max-width: 480px) {
