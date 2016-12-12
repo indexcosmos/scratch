@@ -124,7 +124,7 @@ nav {
   background-color: #6ac48c;
   width: 10em;
   left: 50%;
-  margin-left: -5.35em;
+  margin-left: -9.2em;
 }
 
 .title1-header {
@@ -191,14 +191,16 @@ nav {
 // =intro
 .title1 {
   color: #fff;
-  font-size: .8em;
-  height: 20px;
-  top: 200px;
+  font-size: .9em;
+  height: 3em;
+  width: 19em;
+  top: 181px;
   display: block;
-
   .title1-header {
-    vertical-align: middle;
-    background-color: #000;
+    top: .9em;
+    font-weight: bolder;
+    letter-spacing: .1em;
+    width: 100%;
   }
 }
 
