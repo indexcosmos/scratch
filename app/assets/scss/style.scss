@@ -127,6 +127,10 @@ nav {
   margin-left: -5.35em;
 }
 
+.title1-header {
+  position: absolute;
+}
+
 .border {
   border: black 1px solid;
 }
@@ -163,12 +167,14 @@ nav {
     height: 14em;
     h1 {
       top: 40px;
-      font-size: 1.5em;
+      font-size: 1.2em;
+      letter-spacing: 0.17em;
       padding: 30px;
     }
     p {
       top: 126px;
-      font-size: .9em;
+      font-size: .7em;
+      letter-spacing: 0.3em;
       color: rgba(255, 255, 255, 0.5);
     }
   }
@@ -189,6 +195,11 @@ nav {
   height: 20px;
   top: 200px;
   display: block;
+
+  .title1-header {
+    vertical-align: middle;
+    background-color: #000;
+  }
 }
 
 @media screen and (max-width: 480px) {
