@@ -139,6 +139,7 @@ nav {
 }
 
 .border {
+  font-size: 100%;
   padding-top: 1em;
   border: black 1px solid;
   padding-bottom: 1.5em;
@@ -215,18 +216,26 @@ nav {
     }
   }
   .intro-sentence  {
-    font-size: 0.7em;
+    font-size: 0.775em;
+    color: #eeeeee;
   }
   .border {
+    height: 10em;
     @include border-style(solid);
     border-width: 0.003em;
     border-radius: .35em;
     border-color: rgba(255, 255, 255, 0.3);
-    font-size: 1.03em;
+    font-height: 1.5em;
     font-weight: bold;
-    letter-spacing: 0.16em;
-    line-height: 1.6em;
-    padding: 1.2em;
+    letter-spacing: 0.1em;
+    line-height: 1.4em;
+    padding: 1.6em;
+  }
+  .para {
+    padding-top: 2.1em;
+    font-size: 0.8em;
+    line-height: 1.7em;
+    color: #eeeeee;
   }
 }
 
