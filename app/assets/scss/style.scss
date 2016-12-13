@@ -238,15 +238,14 @@ nav {
     color: #eeeeee;
   }
   .border {
-    height: 10em;
     @include border-style(solid);
     border-width: 0.003em;
     border-radius: .35em;
     border-color: rgba(255, 255, 255, 0.3);
-    font-height: 1.5em;
-    font-weight: bold;
-    letter-spacing: 0.1em;
-    line-height: 1.4em;
+    font-height: 2em;
+    font-weight: bolder;
+    letter-spacing: 0.245em;
+    line-height: 1.9em;
     padding: 1.6em;
   }
   .para {
@@ -264,7 +263,12 @@ nav {
 // =main //
 .main {
   .title1 {
-    top: 48em;
+    top: 43em;
+    height: 2.7em;
+    width: 19em;
+  }
+  .main-img-container {
+    width: 100%;
   }
 }
 
