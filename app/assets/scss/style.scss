@@ -115,6 +115,7 @@ nav {
 
 /* =intro */
 .intro {
+  font-size: .9em;
   background-color: #6ac48c;
   padding: 3em;
   color: #fff;
@@ -132,6 +133,9 @@ nav {
 
 .title1-header {
   position: absolute;
+  font-weight: bolder;
+  letter-spacing: .1em;
+  width: 100%;
 }
 
 .intro-sentence {
@@ -170,7 +174,11 @@ nav {
 
 /* =main */
 .main-img-container {
-  background-image: no-repeat;
+  height: 30px;
+  a {
+    background-image: url("../img/pic01.jpg");
+    background-image: no-repeat;
+  }
 }
 
 /* =feature */
@@ -218,16 +226,11 @@ nav {
 .intro {
   .title1 {
     color: #fff;
-    font-size: .9em;
     height: 2.5em;
     width: 19em;
     top: 194px;
-    display: block;
     .title1-header {
       top: 1.3em;
-      font-weight: bolder;
-      letter-spacing: .1em;
-      width: 100%;
     }
   }
   .intro-sentence  {
@@ -256,7 +259,12 @@ nav {
     border-color: #2f333b;
     background-color: #2f333b;
     padding-top: 0.5em;
-
+  }
+} // end intro //
+// =main //
+.main {
+  .title1 {
+    top: 48em;
   }
 }
 
