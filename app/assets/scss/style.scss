@@ -42,6 +42,11 @@ img {
   max-height: 100%;
 }
 
+.title1 {
+  text-transform: uppercase;
+  position: absolute;
+}
+
 /* =branding */
 .branding {
   background-image: url("../img/banner.jpg");
@@ -117,67 +122,64 @@ nav {
 .intro {
   font-size: .9em;
   background-color: #6ac48c;
-  padding: 3em;
   color: #fff;
-}
-
-.title1 {
-  text-transform: uppercase;
-  position: absolute;
-  top: 200px;
-  background-color: #6ac48c;
-  width: 10em;
-  left: 50%;
-  margin-left: -9.2em;
-}
-
-.title1-header {
-  position: absolute;
-  font-weight: bolder;
-  letter-spacing: .1em;
-  width: 100%;
-}
-
-.intro-sentence {
-  padding-bottom: 3em;
-}
-
-.border {
-  font-size: 100%;
-  padding-top: 1em;
-  border: black 1px solid;
-  padding-bottom: 1.5em;
-}
-
-.para {
-  padding-top: 1.8em;
-  padding-bottom: 2em;
-}
-
-.button  {
-  text-transform: uppercase;
-  height: 3em;
-  @include border-style(solid);
-  border-width: 0.003em;
-  border-radius: .35em;
-  font-weight: bolder;
-  ul {
-    li {
-      padding-top: .6em;
-      height: 100%;
-      font-size: 0.8em;
-      font-weight: bolder;
-      letter-spacing: .2em;
+  .title1 {
+    top: 200px;
+    background-color: #6ac48c;
+    width: 10em;
+    left: 50%;
+    margin-left: -9.2em;
+  }
+  .title1-header {
+    position: absolute;
+    font-weight: bolder;
+    letter-spacing: .1em;
+    width: 100%;
+  }
+  .intro-sentence {
+    padding-bottom: 3em;
+  }
+  .border {
+    font-size: 100%;
+    padding-top: 1em;
+    border: black 1px solid;
+    padding-bottom: 1.5em;
+  }
+  .para {
+    padding-top: 1.8em;
+    padding-bottom: 2em;
+  }
+  .button  {
+    text-transform: uppercase;
+    height: 3em;
+    @include border-style(solid);
+    border-width: 0.003em;
+    border-radius: .35em;
+    font-weight: bolder;
+    ul {
+      li {
+        padding-top: .6em;
+        height: 100%;
+        font-size: 0.8em;
+        font-weight: bolder;
+        letter-spacing: .2em;
+      }
     }
   }
 }
 
 /* =main */
-.main-img-container {
-  height: 30px;
-  a {
+.main {
+  padding: 3em;
+  .title1 {
+    height: 2.7em;
+    width: 19em;
+  }
+  .title1-header {
+  }
+  .main-img-container {
     background-image: url("../img/pic01.jpg");
-    background-image: no-repeat;
+    background-repeat: no-repeat;
   }
 }
 
@@ -224,6 +226,7 @@ nav {
 }
 // =intro
 .intro {
+  padding: 3em;
   .title1 {
     color: #fff;
     height: 2.5em;
@@ -262,11 +265,8 @@ nav {
 } // end intro //
 // =main //
 .main {
+  height: 8em;
   .title1 {
-    top: 43em;
-    height: 2.7em;
-    width: 19em;
-    background-color: #fff;
   }
   .main-img-container {
     width: 100%;
