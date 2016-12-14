@@ -137,7 +137,7 @@ nav {
     width: 100%;
   }
   .intro-sentence {
-    padding-bottom: 3em;
+    padding-bottom: 0;
   }
   .border {
     font-size: 100%;
@@ -156,6 +156,8 @@ nav {
     border-width: 0.003em;
     border-radius: .35em;
     font-weight: bolder;
+    font-size: 1.1em;
+    padding-top: 0.5em;
     ul {
       li {
         padding-top: .6em;
@@ -237,8 +239,10 @@ nav {
     }
   }
   .intro-sentence  {
-    font-size: 0.775em;
+    font-size: 0.9em;
+    line-height: 1.6em;
     color: #eeeeee;
+    padding-bottom: 2em;
   }
   .border {
     @include border-style(solid);
@@ -260,7 +264,6 @@ nav {
   .button {
     border-color: #2f333b;
     background-color: #2f333b;
-    padding-top: 0.5em;
   }
 } // end intro //
 // =main //
