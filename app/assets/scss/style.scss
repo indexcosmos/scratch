@@ -173,6 +173,7 @@ nav {
 /* =main */
 .main {
   position: absolute;
+  height: 100%;
   .title1 {
     height: 2.7em;
     width: 19em;
@@ -193,13 +194,11 @@ nav {
 
 /* =highlight */
 .highlight {
-  position: absolute;
   background-color: #f3f3f3;
 }
 
 /* =footer */
 .footer-container {
-  position: absolute;
   background-color: #282b34;
   color: $bg-color;
 }
@@ -274,7 +273,6 @@ nav {
   height: 100%;
   background-color: green;
   padding: 3em;
-  height: 8em;
   .title1 {
   }
   .main-img-container {
